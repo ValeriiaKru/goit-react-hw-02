@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid gray;
+  border-radius: 8px;
+  transition: background-color 250ms linear;
+}
+
+.button:hover,
+.button:focus-visible,
+.button:active {
+    background-color: rgb(203, 202, 202);
+}
